@@ -1,26 +1,40 @@
+#pageColour {
+  background-image: linear-gradient(#D8B5FF,#1EAE98);
+}
+
+#container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#pageWrap {
+  padding-bottom: 2.5rem;
+}
+
 #nav {
-  height: 80px;
-  width: 2000px;
-  background-color: #505050;
+  height: 70px;
+  width: 1380px;
+  background-color: #404040;
 }
 #nav ul {
   list-style-type: none;
   margin: 20px;
-  padding: 0px;
+  padding: 10px;
 }
 #nav ul li {
   float: left;
-  padding: 20px;
-  width: 350px;
+  padding: 15px;
+  width: 155px;
 }
 #nav ul li a {
   text-decoration: none;
-  line-height: 40px;
+  line-height: 25px;
   color: white;
   font-weight: bold;
   font-family: Arial;
-  font-size: 24px;
+  font-size: 16px;
   display: inline-block;
+  text-align: center;
 }
 #nav ul li:hover {
   background-color: black;
@@ -28,4 +42,23 @@
 
 #nav ul li a:hover {
   color: white;
+}
+
+#siteHeading {
+
+	height:40px;
+	color: black;
+	text-align: center;
+}
+
+#pageHeading {
+  text-align: center;
+  width: 100%;
+  font-family: Arial;
+  font-size: 28px;
+}
+
+#subHeading {
+  font-style: bold;
+  font-size: 24px;
 }
