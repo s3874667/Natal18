@@ -3,12 +3,14 @@ body{
 }
 
 #pageColour {
-  background-image: linear-gradient(#868f96,#596164);
+  background-image: linear-gradient(#D8B5FF,#1EAE98);
 }
 
 #container {
   position: relative;
   min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #pageWrap {
@@ -17,10 +19,9 @@ body{
 
 #nav {
   height: 53px;
-  width: 1250px;
+  width: 100%;
   background-color: #404040;
 }
-
 #nav ul {
   list-style-type: none;
   margin: 15px;
@@ -29,7 +30,7 @@ body{
 #nav ul li {
   float: left;
   padding: 10px;
-  width: 152px;
+  width: 115px;
 }
 #nav ul li a {
   text-decoration: none;
@@ -37,7 +38,7 @@ body{
   color: white;
   font-weight: bold;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 12px;
   display: inline-block;
   text-align: center;
 }
@@ -66,4 +67,9 @@ body{
 #subHeading {
   font-style: bold;
   font-size: 24px;
+}
+
+#first{
+	height: 3500px;
+	background-color:#D8D8D8
 }
