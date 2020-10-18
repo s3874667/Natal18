@@ -73,3 +73,12 @@ body{
 	height: 3500px;
 	background-color:#D8D8D8
 }
+
+#specialheading {
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
