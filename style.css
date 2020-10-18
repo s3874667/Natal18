@@ -82,3 +82,16 @@ body{
     padding-top: 100px;
 }
 
+#g1,#g3,#g5{
+	float: left;
+}
+
+#g2,#g4,#g6{
+	float: right;
+}
+
+.ITTP{
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
