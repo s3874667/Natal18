@@ -1,3 +1,7 @@
+body{
+	font-family: "Microsoft Yahei",sans-serif;
+}
+
 #pageColour {
   background-image: linear-gradient(#D8B5FF,#1EAE98);
 }
@@ -12,19 +16,20 @@
 }
 
 #nav {
-  height: 70px;
-  width: 1380px;
+  height: 53px;
+  width: 1250px;
   background-color: #404040;
 }
+
 #nav ul {
   list-style-type: none;
-  margin: 20px;
-  padding: 10px;
+  margin: 15px;
+  padding: 4px;
 }
 #nav ul li {
   float: left;
-  padding: 15px;
-  width: 155px;
+  padding: 10px;
+  width: 152px;
 }
 #nav ul li a {
   text-decoration: none;
